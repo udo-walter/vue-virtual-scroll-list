@@ -142,6 +142,11 @@ new Vue({
 | onscroll | Function | * | Called when virtual-list is scrolling, with param: [`(event, data)`](https://github.com/tangbc/vue-virtual-scroll-list/releases/tag/v1.1.7). |
 | variable | Function or Boolean | * | For using virtual-list with variable height mode. If assign `Function`, this prop is a variable height getter function which is called with param: `(index)` when each item is ready to be calculated. If assign `Boolean`, virtual-list will get each item variable height by it's inline style height automatic. |
 
+## Special slots
+
+| *Slot* | *Description* |
+| :--- | :--- |
+| static | Items in this slot always exist in the DOM at the top of the list. Can be used for `position: sticky` headers. |
 
 ## Special scenes
 
