@@ -397,7 +397,7 @@
                         'padding-bottom': delta.paddingBottom + 'px'
                     },
                     'class': this.wclass
-                }, list)
+                }, [ this.$slots.static, list ])
             ])
         }
     })
